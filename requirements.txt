@@ -10,4 +10,5 @@ flask
 youtube-transcript-api
 pytesseract 
 pillow
+bs4
 gunicorn
