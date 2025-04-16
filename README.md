@@ -39,7 +39,7 @@
 -  Streamlit for UI
 -  FAISS for vector Database
 
-##📚 Use Cases
+## 📚 Use Cases
 
 -  Students & Researchers: Quickly find answers in study material
 
