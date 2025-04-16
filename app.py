@@ -149,7 +149,7 @@ def user_input(user_question):
 # Main function to run the Streamlit app
 def main():
     """Main function to set up and run the Streamlit app."""
-    st.set_page_config("MultiSource AI")  # Set page title
+    st.set_page_config(page_title="MultiSource AI")  # Set page title
     st.header("MultiSource AI")  # Display header
 
     # Initialize session state variables if not already set
