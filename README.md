@@ -1,8 +1,50 @@
-with this tool you can ask questions from different types of documents like PDFs,Webpages,Images,Youtube videos.
-It will save you alot of time since you dont have to go through the whole document or website for a specific information.
+# 🧠 MultiSource AI - Intelligent Document QA Tool
 
-Here are some sample outputs using this model:
+**MultiSource AI** is a powerful tool that allows users to ask questions and retrieve specific answers from various document sources — all without the need to manually read through them. This saves time and boosts productivity when dealing with large or complex content.
 
-![Screenshot 2025-04-04 154805](https://github.com/user-attachments/assets/ff78c920-01a6-4e86-94cd-0bad311380d3)
+## 🚀 Features
 
-![Screenshot 2025-04-15 155837](https://github.com/user-attachments/assets/32b3b164-51f2-4511-a092-1381615a6b2e)
+- 🔍 **Ask Questions from Multiple Sources:**
+  - 📄 PDF files
+  - 🌐 Websites
+  - 🎥 YouTube videos (with transcript or speech-to-text)
+  - 🖼️ Images (OCR support)
+
+- ⏱️ **Time-Saving**: Extract only the relevant information you need instead of reading through entire content.
+
+- 🌙 **Dark Theme** UI: Sleek and modern design with user-friendly interface.
+
+- 🔒 **Privacy-Aware**: Your uploaded files and URLs are processed securely.
+
+## 📷 Sample Outputs
+
+### 1. From Website (GeeksforGeeks)
+![Screenshot 2025-04-15 155837](https://github.com/user-attachments/assets/18e989bb-4802-4ed9-bd79-4dc7ad9f72f9)
+
+
+### 2. From PDF File
+![Screenshot 2025-04-04 154805](https://github.com/user-attachments/assets/6b9f5603-2574-4c97-b8e6-10ef8308a6ba)
+
+> These examples demonstrate how the model pulls out precise answers instantly from various sources.
+
+## 📦 Tech Stack
+
+-  Python
+-  NLP
+-  Langchain for text processing
+-  PyPDF2 for extracting texts from pdf
+-  BeautifulSoup for web scraping
+-  pytesseract for image parsing
+-  YouTubeTranscriptAPI for speech-to-text for YouTube video processing
+-  Streamlit for UI
+-  FAISS for vector Database
+
+##📚 Use Cases
+
+-  Students & Researchers: Quickly find answers in study material
+
+-  Developers: Get code-related information from documentation
+
+-  Content Creators: Extract summaries from YouTube or websites
+
+-  Professionals: Skim lengthy reports efficiently
